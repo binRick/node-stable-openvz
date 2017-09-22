@@ -1,0 +1,29 @@
+{
+  "name": "stable-openvz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "latestOpenVZ": "cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/binRick/node-stable-openvz.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/binRick/node-stable-openvz/issues"
+  },
+  "homepage": "https://github.com/binRick/node-stable-openvz#readme",
+  "dependencies": {
+    "glob": "^7.1.2",
+    "linkscrape": "^1.0.0",
+    "minimatch": "^3.0.4",
+    "request": "^2.82.0",
+    "unfluff": "^1.1.0"
+  }
+}
